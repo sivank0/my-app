@@ -10,10 +10,6 @@ interface State{
 
 }
 export class CustomButton extends Component<Props, State>{
-    constructor(props: Props){
-        super(props)
-    }
-
     render() {
         return(
             <div className={style.centerAlign}>

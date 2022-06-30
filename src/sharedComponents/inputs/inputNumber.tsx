@@ -10,9 +10,6 @@ interface State {
 
 }
 export class InputNumber extends Component<Props, State>{
-    constructor(props: Props) {
-        super(props)
-    }
     onChange = (event: ChangeEvent<HTMLInputElement>) => {
         this.props.onChange(event.target.valueAsNumber)
     }

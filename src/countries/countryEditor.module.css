@@ -24,7 +24,6 @@ body{
 
     width: 450px;
     padding: 40px;
-    margin: 30px;
 
     border: 1px solid #5D576B;
     border-radius: 40px;
@@ -38,6 +37,7 @@ body{
     width: 95%;
 
     margin-top: 8px;
+    margin-bottom: 25px;
     padding: 10px;
     
     border: 1px solid #5D576B;

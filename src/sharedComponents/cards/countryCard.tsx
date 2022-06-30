@@ -2,7 +2,6 @@ import { Component } from "react";
 import { NavigateFunction } from "react-router-dom";
 import { CountriesProvider } from "../../domain/location/countries/countriesProvider";
 import { Country } from "../../domain/location/countries/models/country";
-import { Error, mapToErrors } from "../../tools/error";
 import { withRouter } from "../../tools/withRouter";
 import { CustomButton } from "../buttons/customButton";
 import { Modal } from "../modals/modal";
@@ -44,7 +43,7 @@ class CountryCard extends Component<Props,State>{
                     <div>Численность населения: {this.props.country.populationNumber}</div>
                     {this.toLocalDate()}
                     <div className={style.buttons}>
-                        <CustomButton value={"Изменить"} onClick={() => this.props.navigate!(`/countryEditor/${this.props.country.code}`)}/>
+                        <CustomButton value={"Изменить"} onClick={() => this.props.navigate!(`/country/edit/${this.props.country.code}`)}/>
                         <CustomButton value={"Удалить"} onClick={()=>this.setModalIsOpen(true)}/>
                     </div>
                 </div>

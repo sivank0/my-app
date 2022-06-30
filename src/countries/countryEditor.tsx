@@ -99,7 +99,7 @@ class CountryEditor extends Component<Props, State>{
                         <div className={style.datePickerMain}>
                             <label>Дата основания:</label>
                             <DatePicker className={style.datePicker} selected={this.state.countryBlank.foundationDate} onChange={(date:Date) => this.changeFoundationDate(date)}
-                            dateFormat="dd/MM/y"/>
+                            dateFormat="dd/MM/y" placeholderText="Введите дату"/>
                         </div>
    
                         <CustomButton value={this.props.params!.code == undefined ? "Добавить" : "Сохранить"} onClick={this.saveCountry}/>

@@ -1,4 +1,4 @@
-import { ChangeEvent, Component } from "react";
+import { Component } from "react";
 import { CountriesProvider } from "../domain/location/countries/countriesProvider";
 import { Country } from "../domain/location/countries/models/country";
 import CountryCard from "../sharedComponents/cards/countryCard";
@@ -61,7 +61,7 @@ export class CountryList extends Component<Props, State>{
         return(
             <div className={style.main}>
                 <div className={style.selectMain}>
-                    <Select currentValue={this.state.pagination.countInPage} values={this.state.pagination.totalRows} 
+                    <Select currentValue={this.state.pagination.countInPage} 
                             label="Количество элементов на странице:" onChangeCountInPage={this.onChangeCountInPage}/>
                 </div>
 
