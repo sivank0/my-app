@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.inputNumber{
+    display: flex;
+    position: absolute;
+    right: 250px; 
+    opacity: 0.4;
+    transition: 0.5s;
+}
+.inputNumber:hover{
+    opacity: 1;
+}
+.searchMain{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin: auto;
+    width: 20vw;
+}
+.selectMain{
+    position: absolute;
+    right: 150px;
+    top: 150px;
+}

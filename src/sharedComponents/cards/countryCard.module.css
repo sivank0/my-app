@@ -1,0 +1,31 @@
+.main{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+.countryName{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.bord{
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid #5D576B;
+    border-radius: 10px;
+
+    padding: 20px;
+
+    background-color: #FFFAE3;
+    box-shadow: 0 6px 0 #5D576B;
+
+    text-decoration: none;
+    color: #000;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 10px auto auto auto;
+}

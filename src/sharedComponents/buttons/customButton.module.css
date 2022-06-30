@@ -1,0 +1,21 @@
+.centerAlign{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    cursor: pointer;
+
+    background-color: #EEE0CB;
+
+    padding: 20px;
+    margin: 20px;
+
+    border: 1px solid #5D576B;
+    border-radius: 30px;
+    box-shadow: 0 0 0 2px  #5D576B;
+    transition: 0.5s;
+}
+.button:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 10px 6px  #5D576B;  
+}

@@ -1,0 +1,51 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.pageNumber{
+    background-color: #FFFAE3;
+
+    cursor: pointer;
+
+    padding: 15px;
+    margin: 15px;
+
+    border: 1px solid #5D576B;
+    border-radius: 40px;
+
+    box-shadow: 0 6px 0  #5D576B;
+    transition: 0.5s;
+}
+.pageNumber:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 10px 2px  #5D576B;  
+}
+
+.activePage{
+    background-color: #FFFAE3;
+
+    padding: 15px;
+    margin: 15px;
+
+
+    border: 1px solid #5D576B;
+    border-radius: 40px;
+
+    box-shadow: 0 6px 0  #5D576B;
+    
+    transform: scale(0.9);
+
+    transition: 0.5s;
+
+    opacity: 0.5;
+}
+
+.pageNumbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: auto;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.container:hover{
+    opacity: 1;
+}
+.select{
+    position: relative;
+    top: -10px;
+
+    margin-left: 15px;
+    padding: 10px;
+
+    border: 1px solid #5D576B;
+    border-radius: 40px;
+}
